@@ -797,47 +797,38 @@ section {
     
 }
 
-.row2{
-    padding: 30px;
-
+.row2 {
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
   }
-
-  .links{
-    /* CSS */
-/* For large screens (col-lg-3) */
-
-
-    @media (min-width: 992px) {
-
-      width: 25%; /* (3 columns out of 12) */
-      float: left;
-  }
-  /* For medium screens (col-md-6) */
-  @media (min-width: 768px) and (max-width: 991px) {
-
-      width: 50%; /* (6 columns out of 12) */
-      float: left;
-  }
-  }
-
-  .list-unstyled{
-    gap: 20px;
+  
+  .links {
+    width: 30%; /* Take full width on small screens (phones) */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
+  }
+  
+  .list-unstyled {
+    gap: 10px;
+    display: flex;
+    flex-direction: row; /* Arrange links in a column on phones */
     justify-content: center;
   }
+  
   .footer-logo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column; /* Arrange logo and title in a column on phones */
+    align-items: flex-start; /* Center the elements horizontally */
+    margin-bottom: 10px; /* Add some space between logo/title and links */
   }
   
   .bcore {
-margin-top: 15px !important;
-margin-left: 20px !important;
+    margin-top: 10px !important;
+    text-align: center; /* Center the title text */
   }
   
 /* end footer section  */
