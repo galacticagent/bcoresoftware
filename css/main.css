@@ -815,7 +815,7 @@ section {
   .list-unstyled {
     gap: 10px;
     display: flex;
-    flex-direction: row; /* Arrange links in a column on phones */
+    flex-direction: column; /* Arrange links in a column on phones */
     justify-content: center;
   }
   
