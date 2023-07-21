@@ -190,7 +190,7 @@ section {
 /* end navbar */
 /* start main background */
 .main-bg {
-    background: url("../Images/main-background.jpg") center center no-repeat;
+    background: url("../images/main-background.jpg") center center no-repeat;
 
     width: 100%;
     height: auto;
@@ -687,7 +687,7 @@ section {
 {
     color: #000000;
     font-size: 14px;
-    background: url("../Images/main-background.jpg") center center no-repeat;
+    background: url("../images/main-background.jpg") center center no-repeat;
     background-size: cover;
 
     background-image:fi;
