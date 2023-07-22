@@ -5,6 +5,25 @@
     height:60px;
 }
 
+.coming-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(190, 190, 190, 0.6);
+    border-radius: 30px;
+    height: 50px !important;
+    width: 300px !important;
+
+}
+
+.coming-soon{
+    color: rgb(0, 0, 0) !important;
+    font-size: 24px;
+    font-weight: 200 !important;
+    margin-top: 10px !important;
+}
+
 
 
 /* Custom CSS class equivalent to Bootstrap classes */
@@ -536,6 +555,7 @@ section {
     display: flex;
 }
 
+
 .portfolio-sec .portfolio-filters li {
     padding: 5px 15px;
     cursor: pointer;
@@ -682,6 +702,8 @@ section {
     border-radius: 5px;
 }
 /*end contact section*/
+
+
 /* start footer section  */
 #footer
 {
@@ -689,17 +711,12 @@ section {
     font-size: 14px;
     background: url("../images/main-background.jpg") center center no-repeat;
     background-size: cover;
-
     background-image:fi;
 }
-#footer .phone-email
-{
-    margin-top: 56px;
-}
+
 #footer h3 
 {
     font-size: 28px;
-    margin: 0 0 30px 0;
     padding: 2px 0 2px 0;
     line-height: 1;
     font-weight: 500;
@@ -741,25 +758,7 @@ section {
     color: #939393;
     
 }
-#footer form 
-{
-    margin-top: 30px;
-    position: relative;
-    border-radius: 5px;
-}
-#footer input[type="submit"]
-{
-    position: absolute;
-    top:-1px;
-    right: 0;
-    border: 0;
-    background: rgba(123, 39, 216, 0.8);
-    padding:8px 20px;
-    border-radius: 0 5px 5px 0;
-    color: #fff;
-    font-size: 16px;
-    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
-}
+
 #footer .copyright-wrap
 {
     margin-top: 20px;
@@ -779,22 +778,16 @@ section {
     line-height: 1;
     padding: 8px 8px;
     margin-right: 4px;
-    border-radius: 50%;
+    border-radius: 100%;
     text-align: center;
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     transition: 0.3s
 }
 #footer .social-links a:hover 
 {
     background: rgba(0, 0, 0, 0.2);
     color: #fff;
-}
-
-.footerclass{
-
-
-    
 }
 
 .row2 {
@@ -812,7 +805,7 @@ section {
 
   }
   
-  .list-unstyled {
+  .list-unstyled2 {
     gap: 10px;
     display: flex;
     flex-direction: column; /* Arrange links in a column on phones */
@@ -830,5 +823,6 @@ section {
     margin-top: 10px !important;
     text-align: center; /* Center the title text */
   }
+  
   
 /* end footer section  */
