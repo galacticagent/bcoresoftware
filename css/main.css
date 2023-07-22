@@ -6,12 +6,12 @@
 }
 
 .coming-class{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(190, 190, 190, 0.6);
-    border-radius: 30px;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgba(190, 190, 190, 0.6) !important;
+    border-radius: 30px !important;
     height: 50px !important;
     width: 300px !important;
 
@@ -19,7 +19,7 @@
 
 .coming-soon{
     color: rgb(0, 0, 0) !important;
-    font-size: 24px;
+    font-size: 24px !important;
     font-weight: 200 !important;
     margin-top: 10px !important;
 }
