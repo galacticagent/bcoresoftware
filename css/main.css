@@ -1,4 +1,9 @@
 /*start General*/
+.applogo{
+    width:60px !important;
+    height:60px !important;
+}
+
 .imagelogo{
     padding: 10px 0px 10px 20px ;
     width:60px;
